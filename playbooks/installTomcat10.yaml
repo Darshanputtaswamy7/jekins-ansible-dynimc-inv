@@ -1,4 +1,4 @@
-- hosts: tomcatservers
+- hosts: all
   become: true
   gather_facts: no
   tasks:
